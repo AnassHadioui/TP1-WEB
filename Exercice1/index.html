@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Solutions</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Exercise 1 :</h1>
+
+    <!-- 1. Show/Hide Text -->
+    <h2>Afficher/Masquer le texte</h2>
+    <button id="toggleText">Afficher</button>
+    <p id="text" style="display: none;">Hello World!</p>
+
+    <!-- 2. Change Style on Click -->
+    <h2>Changer la couleur</h2>
+    <button id="changeStyle">Changer</button>
+    <div id="styledDiv" style="width: 100px; height: 100px; background-color: gray;"></div>
+
+    <!-- 3. Mouse Events -->
+    <h2>Evénements de souris</h2>
+    <div class="color-div blue" id="hoverDiv">Passez la souris ici</div>
+
+    <!-- 4. Form Validation -->
+    <h2>Formulaire de validation</h2>
+    <form id="form">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" required><br><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" required><br><br>
+        <button type="submit">Soumettre</button>
+    </form>
+    <p id="formMessage"></p>
+
+    <!-- 5. Timer -->
+    <h2>Timer en temps réel</h2>
+    <p id="timer">Temps écoulé : 0 secondes</p>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 1px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Center All h2 Headers */
+h2 {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Show/Hide Text */
+#text {
+    font-size: 1.2rem;
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+    color: #555;
+    display: none;
+}
+
+/* Styled Div */
+#styledDiv {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#styledDiv:hover {
+    transform: scale(1.1);
+}
+
+/* Mouse Events */
+.color-div {
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.color-div.blue {
+    background-color: #3498db;
+}
+
+.color-div.red {
+    background-color: #e74c3c;
+}
+
+.color-div:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1rem;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #555;
+}
+
+form input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+#formMessage {
+    text-align: center;
+    font-size: 1rem;
+    color: #5eff00;
+    margin-top: 10px;
+}
+
+/* Timer Styles */
+#timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8e44ad;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 80%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .color-div {
+        width: 150px;
+        height: 80px;
+        font-size: 0.9rem;
+    }
+}
